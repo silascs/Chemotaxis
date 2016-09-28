@@ -1,4 +1,4 @@
- //declare bacteria variables here   
+wed //declare bacteria variables here   
  void setup()   
  {     
  	//initialize bacteria variables here   
