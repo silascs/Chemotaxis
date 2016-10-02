@@ -15,9 +15,14 @@ Bacteria [] colony;
  void draw()   
  {    
  	//move and show the bacteria
- 	background();   
+ 	background(0,0,102);   
  	cell.move;
  	cell.show;
+ 	for(int i=0; i<colony.length; i++)
+ 	{
+ 		colony[i].move;
+ 		colony[i].show;
+ 	}
  }  
  class Bacteria    
  {     
