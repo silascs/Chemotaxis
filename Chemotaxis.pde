@@ -5,7 +5,7 @@ Bacteria [] colony;
  {     
  	//initialize bacteria variables here
  	size(400, 400);
- 	cell = new Bacteria((int)(Math.random()*400), (int)(Math.random()*400));
+ 	cell = new Bacteria();
  	colony = new Bacteria [100];
  	for(int i = 0; i< colony.length; i++)
  	{
@@ -27,10 +27,10 @@ Bacteria [] colony;
  class Bacteria    
  {     
  	int myX,myY,bColor;
- 	Bacteria(int x, int y)
+ 	Bacteria()
  	{
- 		myX = x;
- 		myY = y;
+ 		myX = (int)(Math.random()*400);
+ 		myY = (int)(Math.random()*400);
  		bColor = (int)(Math.random()*255)
  	} 
 
